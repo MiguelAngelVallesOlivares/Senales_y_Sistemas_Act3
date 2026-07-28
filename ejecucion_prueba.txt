@@ -1,0 +1,17 @@
+========================================================================================
+ACTIVIDAD FORMATIVA 3 - FILTROS DIGITALES
+========================================================================================
+Frecuencia de muestreo: 2000 Hz
+Señal: 50 Hz + 250 Hz + 700 Hz + ruido blanco
+Resultados: /mnt/data/actividad_filtros_digitales/resultados
+----------------------------------------------------------------------------------------
+Filtro           Tecnología                  MSE     SNR [dB]     Objetivo      Residuo
+----------------------------------------------------------------------------------------
+pasa_bajos       FIR                    0.023807       13.223       1.0135       0.0000
+pasa_bajos       IIR Butterworth        0.023896       13.206       1.0084       0.0014
+pasa_altos       FIR                    0.115489        0.344       0.4942       0.0000
+pasa_altos       IIR Butterworth        0.109976        0.556       0.4931       0.0076
+pasa_bandas      FIR                    0.022219       10.424       0.6860       0.0000
+pasa_bandas      IIR Butterworth        0.025257        9.868       0.6860       0.0000
+========================================================================================
+Proceso terminado correctamente.
