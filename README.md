@@ -135,20 +135,7 @@ El archivo `resultados/metricas.csv` contiene:
 
 Un MSE menor, un SNR mayor y un residuo menor indican un mejor resultado.
 
-## Publicación en GitHub
 
-Después de crear un repositorio vacío en GitHub, ejecutar desde esta carpeta:
-
-```powershell
-git init
-git add .
-git commit -m "Actividad 3: filtros digitales FIR e IIR"
-git branch -M main
-git remote add origin https://github.com/USUARIO/NOMBRE_REPOSITORIO.git
-git push -u origin main
-```
-
-Reemplace `USUARIO` y `NOMBRE_REPOSITORIO` con los datos reales del repositorio.
 
 ## Archivos principales
 
